@@ -19,7 +19,7 @@ You are going to need only 2 things
 
 - Firstly you need to package your application into a runnable JAR that will be generated withing the target folder. In order to do so remember to also specify the uber-jar packaging type within the [application.properties](src/main/resources/application.properties)
   ````properties
-  quarkus.package.type=uber-jar    
+  quarkus.package.type=uber-jar
   ```` 
   Then we just need to execute
   ````bash

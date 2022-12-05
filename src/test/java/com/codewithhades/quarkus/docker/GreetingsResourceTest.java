@@ -1,4 +1,4 @@
-package com.codewithhades.quarkus.docler;
+package com.codewithhades.quarkus.docker;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;

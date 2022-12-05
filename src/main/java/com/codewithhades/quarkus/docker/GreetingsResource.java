@@ -1,4 +1,4 @@
-package com.codewithhades.quarkus.docler;
+package com.codewithhades.quarkus.docker;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
