@@ -28,7 +28,7 @@ You are going to need only 2 things
 
 - The next thing is to create a [Dockerfile](docker/Dockerfile) that is based on a JDK that matches the one used by your project. It should copy the previously generated JAR and run the java command as entrypoint
     ````Dockerfile
-  FROM openjdk:18-jdk-slim
+  FROM openjdk:19-jdk-slim
   COPY /target/quarkus-docker-runner.jar /app.jar
   ENTRYPOINT ["java","-jar","/app.jar"]
     ````
